@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Password Generator</h1>
+          
+      </header>
+
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+          <p>To generate a password, hit the "generate password" button below. 
+            You will be asked what types of characters you want to include. Please select at least one type character and a length between 8 and 120 characters.
+            Your resulting password will display below.</p>
+        </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+          <button type="button" autofocus id="generateButton" class="btn btn-primary form-group row">Generate Password</button>
+                    </div>
+        </div>
+        <div class="card-footer">
+        </div>
+      </div>
+    </div>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
